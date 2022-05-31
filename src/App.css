@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("./components/stars.gif");
+  background-size: cover;
+}
+
+.calculator {
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 340px;
+  height: 400px;
+  margin: 70px auto;
+  background-color: rgb(242, 229, 213);
+}
+
+.display {
+  text-align: right;
+  height: 57px;
+  border-radius: 7px;
+  color: rgb(241, 212, 175);
+  background-color: rgb(37, 37, 37);
+  margin: 17px;
+  padding-top: 7px;
+  font-size: 29px;
+}
+
+.buttons {
+  margin: 9px 7px;
+  margin-top: 17px;
+  display: flex;
+}
+
+.buttons .digits {
+  margin: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buttons .digits Button {
+  height: 67px;
+}
+
+.buttons .operators {
+  margin: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+Button {
+  width: 69px;
+  padding: 7px;
+}
